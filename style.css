@@ -104,7 +104,7 @@ body {
   font-family: 'M PLUS Rounded 1c', 'Inter', sans-serif;
   font-size: 1.6rem;
   font-weight: 800;
-  color: var(--brand);
+  color: #d4908a;
   letter-spacing: 0.02em;
 }
 
@@ -116,7 +116,7 @@ body {
 }
 
 .brand-icon {
-  color: var(--brand);
+  color: #d4908a;
   flex-shrink: 0;
 }
 
