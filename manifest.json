@@ -1,0 +1,18 @@
+{
+  "name": "アレカラ",
+  "short_name": "アレカラ",
+  "description": "あれから、どのくらい？ — 活動周期トラッカー",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f6f4",
+  "theme_color": "#6a9e82",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236a9e82'/><circle cx='50' cy='50' r='30' fill='none' stroke='white' stroke-width='4' opacity='0.3'/><circle cx='50' cy='50' r='30' fill='none' stroke='white' stroke-width='4' stroke-dasharray='30 60' stroke-dashoffset='-10'/><line x1='50' y1='50' x2='50' y2='28' stroke='white' stroke-width='4' stroke-linecap='round'/><line x1='50' y1='50' x2='67' y2='58' stroke='white' stroke-width='4' stroke-linecap='round'/></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
