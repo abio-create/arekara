@@ -1,23 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <!-- Light pink background -->
-  <rect width="512" height="512" rx="112" fill="#f8dad8"/>
+  <!-- Sage green background -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7db894"/>
+      <stop offset="100%" stop-color="#5a8a6e"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
 
-  <!-- Calendar body -->
-  <rect x="116" y="160" width="280" height="240" rx="24" fill="white"/>
+  <!-- Clock face -->
+  <circle cx="256" cy="256" r="150" fill="white" opacity="0.95"/>
 
-  <!-- Calendar top bar -->
-  <rect x="116" y="160" width="280" height="70" rx="24" fill="#e8908a"/>
-  <rect x="116" y="200" width="280" height="30" fill="#e8908a"/>
+  <!-- Hour markers -->
+  <circle cx="256" cy="130" r="8" fill="#6a9e82"/>
+  <circle cx="382" cy="256" r="8" fill="#6a9e82"/>
+  <circle cx="256" cy="382" r="8" fill="#6a9e82"/>
+  <circle cx="130" cy="256" r="8" fill="#6a9e82"/>
 
-  <!-- Calendar rings -->
-  <rect x="185" y="138" width="16" height="46" rx="8" fill="#d4685e"/>
-  <rect x="311" y="138" width="16" height="46" rx="8" fill="#d4685e"/>
+  <!-- Small hour markers -->
+  <circle cx="319" cy="147" r="5" fill="#9bc4b0"/>
+  <circle cx="365" cy="193" r="5" fill="#9bc4b0"/>
+  <circle cx="365" cy="319" r="5" fill="#9bc4b0"/>
+  <circle cx="319" cy="365" r="5" fill="#9bc4b0"/>
+  <circle cx="193" cy="365" r="5" fill="#9bc4b0"/>
+  <circle cx="147" cy="319" r="5" fill="#9bc4b0"/>
+  <circle cx="147" cy="193" r="5" fill="#9bc4b0"/>
+  <circle cx="193" cy="147" r="5" fill="#9bc4b0"/>
 
-  <!-- Date dots (grid) -->
-  <circle cx="185" cy="280" r="10" fill="#e0c9c7"/>
-  <circle cx="248" cy="280" r="10" fill="#e0c9c7"/>
-  <circle cx="311" cy="280" r="10" fill="#e0c9c7"/>
-  <circle cx="185" cy="340" r="10" fill="#e0c9c7"/>
-  <circle cx="248" cy="340" r="14" fill="#e8908a"/>
-  <circle cx="311" cy="340" r="10" fill="#e0c9c7"/>
+  <!-- Hour hand -->
+  <line x1="256" y1="256" x2="256" y2="175" stroke="#3a5a48" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Minute hand -->
+  <line x1="256" y1="256" x2="320" y2="200" stroke="#3a5a48" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="12" fill="#6a9e82"/>
+  <circle cx="256" cy="256" r="6" fill="white"/>
 </svg>
