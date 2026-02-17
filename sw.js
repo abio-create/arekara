@@ -1,11 +1,12 @@
 // アレカラ Service Worker — オフライン対応
-const CACHE_NAME = 'arekara-v1';
+const CACHE_NAME = 'arekara-v2';
 const ASSETS = [
     '/',
     '/index.html',
     '/style.css',
     '/app.js',
-    '/manifest.json'
+    '/manifest.json',
+    '/icon.svg'
 ];
 
 // インストール時にキャッシュ
