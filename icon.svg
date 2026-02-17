@@ -1,22 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <!-- Light pink background -->
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bgC" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#f5c4c0"/>
       <stop offset="100%" stop-color="#e8a8a3"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
-
-  <!-- Clock circle outline -->
-  <circle cx="256" cy="256" r="155" fill="none" stroke="white" stroke-width="12"/>
-
-  <!-- Hour hand (pointing to ~10) -->
-  <line x1="256" y1="256" x2="200" y2="175" stroke="white" stroke-width="12" stroke-linecap="round"/>
-
-  <!-- Minute hand (pointing to ~2) -->
-  <line x1="256" y1="256" x2="340" y2="185" stroke="white" stroke-width="8" stroke-linecap="round"/>
-
-  <!-- Center dot -->
-  <circle cx="256" cy="256" r="8" fill="white"/>
+  <rect width="512" height="512" rx="112" fill="url(#bgC)"/>
+  <circle cx="256" cy="256" r="160" fill="none" stroke="white" stroke-width="10" stroke-dasharray="680 270" stroke-dashoffset="-30" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="256" cy="256" r="120" fill="none" stroke="white" stroke-width="8" stroke-dasharray="377 377" stroke-dashoffset="94" stroke-linecap="round" opacity="0.5"/>
+  <line x1="256" y1="256" x2="215" y2="185" stroke="white" stroke-width="8" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="320" y2="210" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="7" fill="white"/>
 </svg>
